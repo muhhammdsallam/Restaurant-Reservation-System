@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="684.0" prefWidth="732.0" style="-fx-background-color: #282828;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.managerScene">
+   <children>
+      <Label alignment="TOP_CENTER" layoutX="297.0" layoutY="21.0" prefHeight="18.0" prefWidth="139.0" text="Welcome boss!" textFill="WHITE" />
+      <Label layoutX="301.0" layoutY="56.0" text="Reservation list for today" textFill="#fcf7f7" />
+      <Label fx:id="totalMoneyPaid" alignment="TOP_CENTER" layoutX="123.0" layoutY="580.0" prefHeight="17.0" prefWidth="485.0" textFill="WHITE" />
+      <Button layoutX="323.0" layoutY="636.0" mnemonicParsing="false" onAction="#logout" prefHeight="26.0" prefWidth="86.0" text="Logout" />
+      <Button fx:id="showReservations" layoutX="308.0" layoutY="101.0" mnemonicParsing="false" onAction="#printReservations" prefHeight="26.0" prefWidth="117.0" text="Show reservations" />
+      <GridPane layoutX="44.0" layoutY="171.0" prefHeight="354.0" prefWidth="666.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="244.0" minWidth="10.0" prefWidth="236.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="150.0" minWidth="10.0" prefWidth="113.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label alignment="TOP_CENTER" prefHeight="15.0" prefWidth="156.0" text="Money paid" textFill="WHITE" GridPane.columnIndex="3" />
+            <Label alignment="TOP_CENTER" prefHeight="18.0" prefWidth="155.0" text="Client Name" textFill="WHITE" />
+            <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="345.0" text="Ordered plates" textFill="#ebe7e7" GridPane.columnIndex="2" />
+            <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="163.0" text="Table Number" textFill="#f8f5f5" GridPane.columnIndex="1" />
+            <Label fx:id="cn1" alignment="TOP_CENTER" prefHeight="17.0" prefWidth="204.0" textFill="#f2eded" GridPane.rowIndex="1" />
+            <Label fx:id="cn2" alignment="TOP_CENTER" prefHeight="17.0" prefWidth="183.0" textFill="#f5efef" GridPane.rowIndex="2" />
+            <Label fx:id="cn3" alignment="TOP_CENTER" prefHeight="17.0" prefWidth="148.0" textFill="#f8f4f4" GridPane.rowIndex="3" />
+            <Label fx:id="cn4" alignment="TOP_CENTER" prefHeight="17.0" prefWidth="205.0" textFill="#fff9f9" GridPane.rowIndex="4" />
+            <Label fx:id="cn5" alignment="TOP_CENTER" prefHeight="17.0" prefWidth="165.0" textFill="#f5f4f4" GridPane.rowIndex="5" />
+            <Label fx:id="cn6" alignment="TOP_CENTER" prefHeight="17.0" prefWidth="171.0" textFill="#f5f4f4" GridPane.rowIndex="6" />
+            <Label fx:id="cn7" alignment="TOP_CENTER" prefHeight="17.0" prefWidth="181.0" textFill="#f8f8f8" GridPane.rowIndex="7" />
+            <Label fx:id="tn1" alignment="TOP_CENTER" prefHeight="17.0" prefWidth="148.0" textFill="#f5f3f3" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label fx:id="tn2" alignment="TOP_CENTER" prefHeight="17.0" prefWidth="220.0" textFill="#fcf8f8" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label fx:id="tn3" alignment="TOP_CENTER" prefHeight="17.0" prefWidth="313.0" textFill="#f5f2f2" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label fx:id="tn4" alignment="TOP_CENTER" prefHeight="17.0" prefWidth="230.0" textFill="#fcf8f8" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label fx:id="tn5" alignment="TOP_CENTER" prefHeight="17.0" prefWidth="195.0" textFill="#fcf7f7" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label fx:id="tn6" alignment="TOP_CENTER" prefHeight="17.0" prefWidth="246.0" textFill="#eee8e8" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Label fx:id="tn7" alignment="TOP_CENTER" prefHeight="17.0" prefWidth="157.0" textFill="#f2f0f0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Label fx:id="op1" alignment="CENTER" prefHeight="66.0" prefWidth="244.0" textFill="#f8f0f0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Label fx:id="op2" alignment="CENTER" prefHeight="69.0" prefWidth="244.0" textFill="#fcf8f8" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Label fx:id="op3" alignment="CENTER" prefHeight="81.0" prefWidth="244.0" textFill="#f5f0f0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Label fx:id="op4" alignment="CENTER" prefHeight="91.0" prefWidth="244.0" textFill="#f5eeee" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Label fx:id="op5" alignment="CENTER" prefHeight="70.0" prefWidth="244.0" textFill="#ebeaea" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Label fx:id="op6" alignment="CENTER" prefHeight="72.0" prefWidth="244.0" textFill="#fcf8f8" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <Label fx:id="op7" alignment="CENTER" prefHeight="98.0" prefWidth="244.0" textAlignment="CENTER" textFill="#f8f6f6" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+            <Label fx:id="mp1" alignment="TOP_CENTER" prefHeight="17.0" prefWidth="238.0" textFill="#fcf9f9" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Label fx:id="mp2" alignment="CENTER" prefHeight="17.0" prefWidth="194.0" textFill="#f8f3f3" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Label fx:id="mp3" alignment="CENTER" prefHeight="17.0" prefWidth="222.0" textFill="#f2f0f0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Label fx:id="mp4" alignment="CENTER" prefHeight="17.0" prefWidth="207.0" textFill="#fcfafa" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Label fx:id="mp5" alignment="CENTER" prefHeight="17.0" prefWidth="241.0" textFill="#f8f7f7" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Label fx:id="mp6" alignment="CENTER" prefHeight="17.0" prefWidth="243.0" textFill="#f8f7f7" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <Label fx:id="mp7" alignment="CENTER" prefHeight="17.0" prefWidth="177.0" textFill="#f8f1f1" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

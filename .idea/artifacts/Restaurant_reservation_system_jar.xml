@@ -1,0 +1,32 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Restaurant reservation system:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Restaurant_reservation_system_jar</output-path>
+    <root id="archive" name="Restaurant reservation system.jar">
+      <element id="module-output" name="Restaurant reservation system" />
+      <element id="extracted-dir" path="D:/jaxb-ri/mod/txw2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/jaxb-ri/mod/xsom.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/jaxb-ri/mod/rngom.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/jaxb-ri/mod/stax-ex.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/jaxb-ri/mod/jaxb-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/jaxb-ri/mod/jaxb-jxc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/jaxb-ri/mod/jaxb-xjc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/jaxb-ri/mod/codemodel.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/jaxb-ri/mod/dtd-parser.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/jaxb-ri/mod/FastInfoset.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/jaxb-ri/mod/jaxb-runtime.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/jaxb-ri/mod/relaxng-datatype.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/jaxb-ri/mod/istack-commons-tools.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/jaxb-ri/mod/javax.activation-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/jaxb-ri/mod/istack-commons-runtime.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../javafx-sdk-14/lib/src.zip" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../javafx-sdk-14/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../javafx-sdk-14/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../javafx-sdk-14/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../javafx-sdk-14/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../javafx-sdk-14/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../javafx-sdk-14/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../javafx-sdk-14/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../javafx-sdk-14/lib/javafx.graphics.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

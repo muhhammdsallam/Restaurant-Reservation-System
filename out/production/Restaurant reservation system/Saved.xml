@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<clients>
+    <client>
+        <name>Brian Johnes</name>
+        <table>
+            <number>2</number>
+            <number_of_seats>12</number_of_seats>
+            <smoking>false</smoking>
+            <reserved>true</reserved>
+        </table>
+        <dishes>
+            <dish>
+                <name>Greek Salad</name>
+                <price>38.5</price>
+                <type>Appetizer</type>
+                <quantity>2</quantity>
+            </dish>
+        </dishes>
+        <money>77.0</money>
+    </client>
+    <client>
+        <name>John Doe</name>
+        <table>
+            <number>4</number>
+            <number_of_seats>4</number_of_seats>
+            <smoking>false</smoking>
+            <reserved>true</reserved>
+        </table>
+        <dishes>
+            <dish>
+                <name>Mushroom Soup</name>
+                <price>69.0</price>
+                <type>Main Course</type>
+                <quantity>2</quantity>
+            </dish>
+        </dishes>
+        <money>138.0</money>
+    </client>
+    <client>
+        <name>John Doe</name>
+        <table>
+            <number>3</number>
+            <number_of_seats>12</number_of_seats>
+            <smoking>true</smoking>
+            <reserved>true</reserved>
+        </table>
+        <dishes>
+            <dish>
+                <name>Fried Potatoes</name>
+                <price>33.0</price>
+                <type>Appetizer</type>
+                <quantity>2</quantity>
+            </dish>
+        </dishes>
+        <money>66.0</money>
+    </client>
+    <client>
+        <name>John Doe</name>
+        <table>
+            <number>5</number>
+            <number_of_seats>4</number_of_seats>
+            <smoking>true</smoking>
+            <reserved>true</reserved>
+        </table>
+        <dishes>
+            <dish>
+                <name>Grilled Chicken</name>
+                <price>80.5</price>
+                <type>Main Course</type>
+                <quantity>2</quantity>
+            </dish>
+        </dishes>
+        <money>161.0</money>
+    </client>
+    <client>
+        <name>John Doe</name>
+        <table>
+            <number>6</number>
+            <number_of_seats>7</number_of_seats>
+            <smoking>true</smoking>
+            <reserved>true</reserved>
+        </table>
+        <dishes>
+            <dish>
+                <name>Molten Cake</name>
+                <price>72.0</price>
+                <type>Desert</type>
+                <quantity>2</quantity>
+            </dish>
+        </dishes>
+        <money>236.0</money>
+    </client>
+    <client>
+        <name>John Doe</name>
+        <table>
+            <number>7</number>
+            <number_of_seats>6</number_of_seats>
+            <smoking>true</smoking>
+            <reserved>true</reserved>
+        </table>
+        <dishes>
+            <dish>
+                <name>Greek Salad</name>
+                <price>38.5</price>
+                <type>Appetizer</type>
+                <quantity>1</quantity>
+            </dish>
+            <dish>
+                <name>Grilled Chicken</name>
+                <price>80.5</price>
+                <type>Main Course</type>
+                <quantity>1</quantity>
+            </dish>
+            <dish>
+                <name>Apple Pie</name>
+                <price>60.0</price>
+                <type>Desert</type>
+                <quantity>1</quantity>
+            </dish>
+        </dishes>
+        <money>179.0</money>
+    </client>
+    <client>
+        <name>John Doe</name>
+        <table>
+            <number>1</number>
+            <number_of_seats>5</number_of_seats>
+            <smoking>false</smoking>
+            <reserved>true</reserved>
+        </table>
+        <dishes>
+            <dish>
+                <name>Grilled Chicken</name>
+                <price>80.5</price>
+                <type>Main Course</type>
+                <quantity>1</quantity>
+            </dish>
+        </dishes>
+        <money>80.5</money>
+    </client>
+</clients>

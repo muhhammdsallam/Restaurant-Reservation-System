@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="1310.0" style="-fx-background-color: #282828;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.clientController">
+   <children>
+      <Label layoutX="238.0" layoutY="86.0" text="Available tables" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="28.0" />
+         </font>
+      </Label>
+      <GridPane layoutX="32.0" layoutY="155.0" prefHeight="345.0" prefWidth="647.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="359.2000244140625" minWidth="10.0" prefWidth="215.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="368.0" minWidth="10.0" prefWidth="222.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="273.6000671386719" minWidth="10.0" prefWidth="170.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="44.0" minHeight="10.0" prefHeight="44.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="44.0" minHeight="10.0" prefHeight="44.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label prefHeight="18.0" prefWidth="246.0" text="           Table number" textAlignment="CENTER" textFill="WHITE" />
+            <Label prefHeight="18.0" prefWidth="170.0" text="                     1" textFill="WHITE" GridPane.rowIndex="1" />
+            <Label prefHeight="18.0" prefWidth="180.0" text="                     2" textFill="WHITE" GridPane.rowIndex="2" />
+            <Label prefHeight="18.0" prefWidth="190.0" text="                     3" textFill="WHITE" GridPane.rowIndex="3" />
+            <Label prefHeight="18.0" prefWidth="180.0" text="                     4" textFill="WHITE" GridPane.rowIndex="4" />
+            <Label prefHeight="18.0" prefWidth="207.0" text="                     5" textFill="WHITE" GridPane.rowIndex="5" />
+            <Label prefHeight="18.0" prefWidth="203.0" text="                     6" textFill="WHITE" GridPane.rowIndex="6" />
+            <Label prefHeight="18.0" prefWidth="218.0" text="                     7" textFill="WHITE" GridPane.rowIndex="7" />
+            <Label prefHeight="18.0" prefWidth="203.0" text="          Number of seats" textFill="WHITE" GridPane.columnIndex="1" />
+            <Label prefHeight="18.0" prefWidth="174.0" text="                     5 " textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label prefHeight="18.0" prefWidth="210.0" text="                    12" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label prefHeight="18.0" prefWidth="214.0" text="                    12" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label prefHeight="18.0" prefWidth="217.0" text="                     4" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label prefHeight="18.0" prefWidth="216.0" text="                     4" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label prefHeight="18.0" prefWidth="224.0" text="                     7" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Label prefHeight="18.0" prefWidth="231.0" text="                     6" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Label prefHeight="18.0" prefWidth="215.0" text="                   Area" textFill="WHITE" GridPane.columnIndex="2" />
+            <Label prefHeight="18.0" prefWidth="226.0" text="            Non smoking" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Label prefHeight="18.0" prefWidth="219.0" text="            Non smoking" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Label prefHeight="18.0" prefWidth="250.0" text="               Smoking" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Label prefHeight="18.0" prefWidth="202.0" text="            Non smoking" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Label prefHeight="18.0" prefWidth="212.0" text="               Smoking" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Label prefHeight="18.0" prefWidth="271.0" text="               Smoking" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <Label prefHeight="18.0" prefWidth="215.0" text="               Smoking" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+         </children>
+      </GridPane>
+      <Label fx:id="clientNameTxt" alignment="TOP_CENTER" layoutX="623.0" layoutY="25.0" prefHeight="18.0" prefWidth="170.0" textFill="WHITE" />
+      <TextField fx:id="tableNumber" layoutX="32.0" layoutY="543.0" promptText="table number" />
+      <TextField fx:id="seatsNumber" layoutX="259.0" layoutY="543.0" promptText="number of seats" />
+      <TextField fx:id="txtArea" layoutX="513.0" layoutY="543.0" prefHeight="25.0" prefWidth="138.0" promptText="area" />
+      <Button layoutX="659.0" layoutY="607.0" mnemonicParsing="false" onAction="#logout1" prefHeight="26.0" prefWidth="98.0" text="Logout" />
+      <Button fx:id="savebtn" layoutX="290.0" layoutY="607.0" mnemonicParsing="false" onAction="#saveData" prefHeight="26.0" prefWidth="87.0" text="Choose " />
+      <Label fx:id="tableNumberAlert" alignment="TOP_CENTER" layoutX="95.0" layoutY="647.0" prefHeight="18.0" prefWidth="476.0" textFill="#ff1717" />
+      <GridPane layoutX="725.0" layoutY="155.0" prefHeight="255.0" prefWidth="590.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="36.0" minHeight="10.0" prefHeight="36.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="31.0" minHeight="10.0" prefHeight="27.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label alignment="BOTTOM_CENTER" prefHeight="72.0" prefWidth="202.0" text="Appetizers" textFill="#f2eded" />
+            <Label alignment="BOTTOM_CENTER" prefHeight="43.0" prefWidth="201.0" text="Main course" textFill="#f2e9e9" GridPane.columnIndex="1" />
+            <Label alignment="BOTTOM_CENTER" prefHeight="67.0" prefWidth="201.0" text="Deserts" textFill="#f5f3f3" GridPane.columnIndex="2" />
+            <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="244.0" text="Greek Salad" textFill="#f5f4f4" GridPane.rowIndex="2" />
+            <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="290.0" text="35$" textFill="#fcf7f7" GridPane.rowIndex="3" />
+            <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="264.0" text="Grilled Chicken" textFill="#f5efef" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="267.0" text="Mushroom Soup" textFill="#f5f4f4" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="275.0" text="80$" textFill="#fcf7f7" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="246.0" text="Apple Pie" textFill="#fcf7f7" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="300.0" text="50$" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="302.0" text="Fried Potatoes" textFill="#f5efef" GridPane.rowIndex="4" />
+            <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="263.0" text="30$" textFill="#f5f0f0" GridPane.rowIndex="5" />
+            <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="287.0" text="Beef Steak" textFill="#f5f3f3" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="312.0" text="75$" textFill="#f8f1f1" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="328.0" text="60$" textFill="#fcf6f6" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="245.0" text="Molten Cake" textFill="#f2f0f0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="280.0" text="60$" textFill="#f5f4f4" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Label alignment="TOP_CENTER" prefHeight="63.0" prefWidth="202.0" text="-------------" textFill="#f8f5f5" GridPane.rowIndex="1" />
+            <Label alignment="TOP_CENTER" prefHeight="47.0" prefWidth="201.0" text="--------------" textFill="#fcf8f8" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label alignment="TOP_CENTER" prefHeight="64.0" prefWidth="201.0" text="----------" textFill="#f8f5f5" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+      <Label layoutX="985.0" layoutY="86.0" text="Menu" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold" size="28.0" />
+         </font>
+      </Label>
+      <Separator layoutX="708.0" layoutY="52.0" orientation="VERTICAL" prefHeight="524.0" prefWidth="0.0" />
+      <Button layoutX="1205.0" layoutY="479.0" mnemonicParsing="false" onAction="#addDish" text="Add" />
+      <Button layoutX="1202.0" layoutY="610.0" mnemonicParsing="false" onAction="#saveAllData" text="Done" />
+      <TextField fx:id="plateName" layoutX="946.0" layoutY="453.0" onMousePressed="#mousePress" promptText="Plate" />
+      <TextField fx:id="quantity" layoutX="946.0" layoutY="500.0" promptText="Quantity" />
+      <Label fx:id="menuAlert" alignment="TOP_CENTER" layoutX="884.0" layoutY="547.0" prefHeight="17.0" prefWidth="257.0" textFill="#ff2424" />
+      <Label layoutX="956.0" layoutY="581.0" prefHeight="17.0" prefWidth="77.0" text="Total Price = " textFill="#fcfafa" />
+      <Label fx:id="totalMoney" layoutX="1027.0" layoutY="581.0" prefHeight="17.0" prefWidth="70.0" textFill="#f8f3f3" />
+      <Label layoutX="547.0" layoutY="647.0" prefHeight="17.0" prefWidth="355.0" text="-Note: Appetizer (10% taxes), Main Course (15% taxes), Desert (20% taxes)" textFill="#f5f0f0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="955.0" layoutY="547.0" prefHeight="17.0" prefWidth="138.0" textFill="#fc0505" />
+      <Label fx:id="doneMessage" alignment="TOP_CENTER" layoutX="897.0" layoutY="625.0" prefHeight="17.0" prefWidth="231.0" textFill="#9a8686" />
+   </children>
+</AnchorPane>
